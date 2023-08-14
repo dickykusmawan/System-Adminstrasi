@@ -1,0 +1,95 @@
+body, h2, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set container to center elements */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("Jpg/background.jpg"); /* Ganti dengan URL gambar background yang diinginkan */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Logo styling */
+.logo img {
+  width: 80px; /* Sesuaikan lebar logo sesuai kebutuhan */
+  height: auto;
+}
+
+/* dash styling */
+.dashb h2 {
+  font-size: 30px; /* Sesuaikan ukuran font sesuai kebutuhan */
+  margin-top: 15px;
+  align: center;
+  color: white;
+}
+
+/* menu styling */
+ul.menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  text-align: center;
+}
+
+ul.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul.menu li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4285F4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+ul.menu li a:hover {
+  background-color: #2B5EBB;
+}
+
+
+/* logdas styling */
+ul.logdas {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  text-align: center;
+}
+
+ul.logdas li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul.logdas li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orange;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+ul.logdas li a:hover {
+  background-color: orange;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
